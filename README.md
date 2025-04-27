@@ -16,7 +16,7 @@ This project implements the **Paxos consensus algorithm** using Java, gRPC, and 
 
 ## Setup
 ```bash
-git clone https://github.com/alimiheb/paxos-consensus.git
+git clone https://github.com/alimiheb/PaxosConsensusGUI.git
 cd paxos-consensus
 mvn clean install
 ```
