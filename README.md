@@ -47,6 +47,19 @@ target/
 pom.xml
 ```
 
+## Troubleshooting
+
+### Issue: "Cannot Resolve Symbol" Errors for gRPC Classes
+After cloning the repository, you may encounter errors in IntelliJ IDEA such as `Cannot resolve symbol 'PaxosServiceGrpc'`, `Cannot resolve symbol 'ValueRequest'`, etc. This occurs because the gRPC-generated classes are not automatically recognized by IntelliJ IDEA.
+
+#### Solution
+1. **Re-import the Maven Project**:
+   - In IntelliJ IDEA, open the Maven tool window (right sidebar).
+   - Click the **Reimport All Maven Projects** button (circular arrow icon).
+   - Alternatively, run the following command in the terminal:
+     ```bash
+     mvn idea:idea
+
 
 
 ## Contact
