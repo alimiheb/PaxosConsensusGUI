@@ -9,7 +9,7 @@ This project implements the **Paxos consensus algorithm** using Java, gRPC, and 
 - Real-time GUI visualization (Java Swing)
 
 ## Prerequisites
-- Java JDK 11+
+- Java JDK 22+ (and java language 1.7)
 - Maven
 - IntelliJ IDEA (recommended)
 - gRPC dependencies (managed via Maven)
